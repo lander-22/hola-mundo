@@ -6,7 +6,7 @@
 - Ramificaciones
 - Etiquetas
 ------------
-##Variables de configuración
+## Variables de configuración
 | Descripción  |  comando |
 | ------------ | ------------ |
 |Enumera todas las variables de configuración.|`git config --list`|
