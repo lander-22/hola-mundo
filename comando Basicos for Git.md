@@ -19,9 +19,9 @@
 
 ### Comandos Principales
 - **`git clone <nameRepo>`**  : clonar los archivos del repositorio en github del respectivo brach o master(main).
-- **`git fetch `**  :  para actualizar los archivos del brach recuerdo.
-- **`git pull origin main `**  :
-- **`git push origin main `**  :
+- **`git fetch `**  :  para actualizar los archivos del brach recuerdo, se debe de hacer antes del `git pull origin <namebranch>`.
+- **`git pull origin <namebranch> `**  : Es para cargar archivos del remoto al local independiente del branch en el q estes.
+- **`git push origin <namebranch> `**  : Es para subir un commit al brach elegido basicamente es lo contrario del pull , del local al remoto.
 
 ### Comandos for Branch 
 
@@ -31,4 +31,6 @@
 - **`git  push origin <name branch>`**  :
 - **`git checkout -b <namebranch> `**  : crea nuevo branch y te mueve automaticamente hacia el es la union de comandos 1 y 2 de esta lista.
 
+### Comandos Para unir a la linea principal
 
+- **`git `**  :
