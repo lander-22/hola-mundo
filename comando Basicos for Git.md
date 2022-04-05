@@ -23,3 +23,12 @@
 - **`git pull origin main `**  :
 - **`git push origin main `**  :
 
+### Comandos for Branch 
+
+- **`git branch <nameNewBranch> `**  : si escribes sin el nombre del nuevo branch te listara los branches actuales , sino te creara uno nuevo con el nombre q le especifiques.
+- **`git  checkout <namebranch>`**  : Es para moverse a un branch en especifico.
+- **`git commit -am "mensaje de cambios" `**  : es para guardar cambios localmente mas no subirlos al branch.
+- **`git  push origin <name branch>`**  :
+- **`git checkout -b <namebranch> `**  : crea nuevo branch y te mueve automaticamente hacia el es la union de comandos 1 y 2 de esta lista.
+
+
