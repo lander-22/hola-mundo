@@ -33,4 +33,6 @@
 
 ### Comandos Para unir a la linea principal
 
-- **`git `**  :
+- **`git pull request`**  : se hace normalmente en Github previo a que se revisen tus cambios en tu branch por el Review.
+- **`git merge`**  : se hace tambien en Github normalmente una vez confirmado que los cambios van a la linea principal o master.
+
