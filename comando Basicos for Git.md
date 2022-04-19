@@ -35,4 +35,11 @@
 
 - **`git pull request`**  : se hace normalmente en Github previo a que se revisen tus cambios en tu branch por el Review.
 - **`git merge`**  : se hace tambien en Github normalmente una vez confirmado que los cambios van a la linea principal o master.
+- **`git reset --merge`**  : Se Realiza para resetear algun merche hecho , y cuando ya tienes dms código debes de elgir como solucionar el conflicto si eliminando el archvio de tu rama master o de alguna otra rama.
 
+### Comandos de seguimiento 
+
+- **`git reset --hard`**  : Me va a resetear al ultimo `commit` que tengo, es en el caso que no quiera los cambios que he hecho .
+- **`git log `**  : Es un historial de lo que ha sucedido en el tiempo (con la letra `q` sales del comando ), si le agregas `--online` te sale en una sola linea el historial y si le agregas `graph` te presentara los cambios de una manera mas visual de tus cambios.
+- 
+- 
