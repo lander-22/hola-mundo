@@ -42,4 +42,11 @@
 - **`git reset --hard`**  : Me va a resetear al ultimo `commit` que tengo, es en el caso que no quiera los cambios que he hecho .
 - **`git log `**  : Es un historial de lo que ha sucedido en el tiempo (con la letra `q` sales del comando ), si le agregas `--oneline` te sale en una sola linea el historial y si le agregas `--graph` te presentara los cambios de una manera mas visual de tus cambios.
 - 
-- 
+
+### Comandos de Alias de acceso rapido
+- **`git log `**  : este comando es solo el generico para ser mas especifico utilizare un comando mas detallado que es super util.
+  `git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`
+
+- **`git status --short`**  : agregando como alias a este comando para no escribir tanto codigo en git.
+  `git config --global alias.s status --short`
+  
